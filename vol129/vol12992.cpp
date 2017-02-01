@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
         int N;
         cin >> N;
         cout << "Case #" << to_string(t) << ": ";
-        cout << to_string(N * 2 + 1) << endl;
+        cout << to_string(N * 2 - 1) << endl;
     }
     return 0;
 }
